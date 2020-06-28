@@ -1,0 +1,53 @@
+.jumbotron{
+	background-image: url('gambar/imgjumbotron.jpg');
+	background-size: cover;
+	height: 520px;
+	margin-top: 50px;
+}
+
+hr{
+	margin-left: 600px;
+	margin-right: 600px;
+}
+
+.imgsatu{
+	width: 380px;
+	height: 320px;
+}
+
+.imgdua{
+	width: 320px;
+	height: 320px
+}
+
+.imgtiga{
+	width: 420px;
+	height: 320px
+
+}
+
+.gambarempat{
+	width: 380px;
+	height: 220px
+}
+
+.contact{
+	width: 490px;
+	height: 380px;
+}
+
+.about,.ourservice,.galery,.contactus{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 160px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
